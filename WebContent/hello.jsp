@@ -3,13 +3,13 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>INDEX</title>
-</head>
-<body>
-	<s:form action="HelloStrutsAction">
-		<s:submit value="HelloStruts"/>
-	</s:form>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>HelloStruts</title>
+	</head>
+	<body>
+		<h1>HelloStruts2!</h1>
+		<br>
+		<h3>MySQLと接続できます。</h3>
+	</body>
 </html>
